@@ -404,7 +404,9 @@ ul {
     display: flex;
     align-items: center;
 }
-
+.icon-checkbox{
+    margin-top: -7px;
+}
 .customers {
     width: 210px;
     height: 92px;
@@ -965,7 +967,6 @@ textarea:focus {
     cursor: pointer;
     padding-top: 20px;
     padding-bottom: 30px;
-
 }
 
 .terms-and-conditions-label span {
@@ -978,6 +979,7 @@ textarea:focus {
 
 .terms-and-conditions-label span a {
     color: var(--hover-color);
+   
 }
 
 .terms-and-conditions-label svg {
