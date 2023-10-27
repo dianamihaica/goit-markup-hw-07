@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: white;
+    background-color:#fff;
     font-weight: 400;
     width: 100vw;
     height: 100vh;
@@ -24,7 +24,7 @@ ul {
     list-style: none;
 }
 
-.header-section {
+.global-header{
     width: 100%;
     margin: 0;
     border-bottom: 1px solid #ECECEC;
@@ -152,9 +152,9 @@ ul {
 }
 
 
-/*First section-image and button*/
+/*Section-one*/
 
-.first-section {
+.sectionone {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -162,7 +162,7 @@ ul {
     margin: auto;
 }
 
-.first-section h1 {
+.sectionone h1 {
     text-align: center;
     color: #F5F4FA;
     font-weight: 900;
@@ -171,7 +171,7 @@ ul {
     margin-top: 200px;
 }
 
-.first-section button {
+.sectionone button {
     margin-bottom: 200px;
     padding: 12px;
 }
@@ -196,7 +196,7 @@ ul {
     color: #fff;
 }
 
-.first-section {
+.sectionone {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
         url('../images/effective-solutions-m.png');
     background-repeat: no-repeat;
@@ -631,7 +631,7 @@ ul {
     margin: auto;
 }
 
-/* portfolio page */
+
 
 
 .buttons-container ul {
@@ -643,7 +643,7 @@ ul {
     column-gap: 8px;
 }
 
-/* butoane-portofoliu */
+
 .btn-filter {
     font-size: 16px;
     font-weight: 500;
@@ -936,7 +936,8 @@ textarea:focus {
 }
 
 .form-section .form-label {
-    font-family: var(--heading-font-family) font-size: 12px;
+    font-family: var(--heading-font-family) ;
+    font-size: 12px;
     font-weight: 400;
     line-height: 14px;
     letter-spacing: 0.01em;
@@ -1021,7 +1022,6 @@ textarea:focus {
     margin-bottom: 10px;
 }
 
-/* js-container*/
 
 .js-menu-container {
     display: none;
@@ -1210,13 +1210,12 @@ font-family: Roboto;
     padding-left: 15px;
 }
 
-    .first-section {
+    .sectionone {
         background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
             url('../images/effective-solutions-t.png');
         background-size: cover;
     }
 
-    /*4p section*/
         .second-section .feature-container-d {
             display: none;
         }
@@ -1585,7 +1584,7 @@ font-family: Roboto;
 
 
 
-/*Laptop*/
+/*Desktop*/
 @media screen and (min-width: 1158px) {
 
     .contacts-header-container ul {
@@ -1632,7 +1631,7 @@ font-family: Roboto;
     align-items: center;
     column-gap: 50px;
 }
-    .first-section {
+    .sectionone{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1641,7 +1640,7 @@ font-family: Roboto;
         margin: auto;
     }
 
-    .first-section h1 {
+    .sectionone h1 {
         text-align: center;
         color: #F5F4FA;
         font-weight: 900;
@@ -1650,7 +1649,7 @@ font-family: Roboto;
         margin-top: 200px;
     }
 
-    .first-section button {
+    .sectionone button {
         margin-bottom: 200px;
         padding: 12px;
     }
@@ -1675,7 +1674,7 @@ font-family: Roboto;
         color: #fff;
     }
 
-    .first-section {
+    .sectionone{
         background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
             url('../images/effective-solutions-d.png');
         background-size: cover;
@@ -1723,7 +1722,6 @@ font-family: Roboto;
         display: flex;
         flex-direction: column;
         align-items: center;
-        /*width: 270px;*/
         margin: auto;
     }
 
@@ -1738,7 +1736,6 @@ font-family: Roboto;
         border-radius: 4px;
     }
 
-    /*What we do section*/
     .third-section {
         display: block;
     }
@@ -1768,7 +1765,7 @@ font-family: Roboto;
         padding-bottom: 94px;
     }
 
-    /*Our team section*/
+ 
 
         .fourth-section .our-team-m {
             display: none;
@@ -1854,7 +1851,7 @@ font-family: Roboto;
             width: 270px;
             height: 260px;
         }
-    /*Regular Customers section*/
+
 
     .icon-customers {
         width: 106px;
@@ -2090,7 +2087,7 @@ font-family: Roboto;
         @media screen (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
-            .first-section {
+            .sectionone {
                 background-image: url('../images/effective-solutions-2x-d.png');
             }
 
