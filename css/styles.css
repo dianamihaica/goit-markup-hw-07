@@ -25,9 +25,21 @@ ul {
 }
 
 .global-header{
-    width: 100%;
-    margin: 0;
-    border-bottom: 1px solid #ECECEC;
+    background-color: #ffffff;
+  font: var(--heading-font-family);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  width: 1600px;
+  justify-content: space-between;
+  /* padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  margin-left: 200px;
+  margin-right: 200px; */
+  margin: auto;
+  border-bottom: 1px solid #ececec;
 }
 
 .nav-container ul {
