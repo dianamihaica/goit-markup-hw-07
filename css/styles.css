@@ -203,7 +203,7 @@ ul {
     background-size: cover;
 }
 
-/*4 paragraphs section*/
+
 .second-section .feature-container-d {
     display: none;
 }
@@ -261,7 +261,7 @@ ul {
     display: none;
 }
 
-/*Our team section*/
+
 .fourth-section .our-team-d {
     display: none;
 }
@@ -378,7 +378,7 @@ ul {
     fill: #fff;
 }
 
-/*Regular costumers*/
+
 
 .customers-section .regular-customers-d {
     display: none;
@@ -609,6 +609,7 @@ ul {
 .footer-container-m .footer-section4 .subscribe-icon {
     width: 20px;
     height: 20px;
+    fill:#fff;
 }
 
 .footer-container-m .btn-subscribe {
@@ -1021,7 +1022,6 @@ textarea:focus {
     text-align: center;
     margin-bottom: 10px;
 }
-
 
 .js-menu-container {
     display: none;
@@ -2064,6 +2064,7 @@ font-family: Roboto;
     .footer-section4 .subscribe-icon {
         width: 20px;
         height: 20px;
+        fill:#fff;
     }
 
     .btn-subscribe {
