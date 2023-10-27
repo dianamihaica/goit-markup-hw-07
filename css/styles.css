@@ -1679,8 +1679,6 @@ font-family: Roboto;
             url('../images/effective-solutions-d.png');
         background-size: cover;
     }
-
-    /* Feature-4 p section*/
     .second-section .feature-container-m {
         display: none;
     }
@@ -1912,7 +1910,6 @@ font-family: Roboto;
         display: block;
     }
 
-    /*Footer section*/
     .footer-section .footer-container-m {
         display: none;
     }
