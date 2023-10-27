@@ -535,6 +535,7 @@ ul {
     display: flex;
     flex-direction: column;
     margin: auto;
+    margin-top: -50px;
 }
 
 .footer-container-m .footer-section2 .footer-svg {
@@ -566,7 +567,6 @@ ul {
     flex-direction: column;
     margin: auto;
     background-color: rgba(47, 48, 58, 1);
-
 }
 
 .footer-container-m .footer-section3 .subscribe-text {
@@ -1989,6 +1989,7 @@ font-family: Roboto;
         font-weight: 700px;
         font-size: 14px;
         letter-spacing: 3%;
+
     }
 
     .footer-icon {
@@ -2000,7 +2001,6 @@ font-family: Roboto;
     .footer-container-d .footer-section2 {
         display: flex;
         flex-direction: column;
-        margin-left: px;
         padding-top: 85px;
         padding-left: 150px;
     }
