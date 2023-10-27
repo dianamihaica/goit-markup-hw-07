@@ -25,21 +25,18 @@ ul {
 }
 
 .global-header{
-    background-color: #ffffff;
+    /* background-color: #ffffff;
   font: var(--heading-font-family);
   text-decoration: none;
   display: flex;
   align-items: center;
   width: 1600px;
-  justify-content: space-between;
-  /* padding-left: 15px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-right: 15px;
-  margin-left: 200px;
-  margin-right: 200px; */
+  justify-content: space-between; */
+
+  width: 1600px;
   margin: auto;
-  border-bottom: 1px solid #ececec;
+  border-bottom: 1px solid #ECECEC;
+
 }
 
 .nav-container ul {
