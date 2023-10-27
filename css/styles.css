@@ -2097,12 +2097,11 @@ font-family: Roboto;
         padding-top: 121px;
         padding-left: 10px;
     }
-        @media screen (min-device-pixel-ratio: 2),
+@media screen (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
             .sectionone {
-                background-image: url('../images/effective-solutions-2x-d.png');
-            }
+                background-image: url('../images/effective-solutions-2x-d.png');}
 
 }
 }
