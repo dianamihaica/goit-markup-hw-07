@@ -389,7 +389,9 @@ ul {
     fill: #fff;
 }
 
-
+.card-images{
+    width: 100%;
+}
 
 .customers-section .regular-customers-d {
     display: none;
@@ -408,7 +410,7 @@ ul {
 } */
 .regular-customers-mobile li{
     margin: auto;
-    width: 47%;
+    /* width: 47%; */
 }
 .icon-customers {
     width: 106px;
@@ -847,7 +849,7 @@ ul {
 }
 
 .modal-content {
-    Width: 528px;
+    Width: 85%;
     background-color: #fff;
     position: fixed;
     padding: 40px;
@@ -1055,8 +1057,8 @@ textarea:focus {
     background-color: #fff;
     padding: 48px 40px;
     z-index: 1;
-    width:480px;
-    height: 732px;
+    width:100%;
+    height: 100%;
     
 }
 .js-menu-container .menu-drawer-navigation ul{
